@@ -64,5 +64,4 @@ public class AuthController {
         user = userRepository.save(user);
         return ResponseEntity.ok(userDto);
     }
-
 }
